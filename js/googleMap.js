@@ -8,7 +8,7 @@ function initMap() {
         '</div>';
 
     // Your Position
-    var myLatlng = new google.maps.LatLng(6.000512, 80.266628);
+    var myLatlng = new google.maps.LatLng(6.002902, 80.2643223);
 
     // Map Styling
     var styledMapType = new google.maps.StyledMapType(
