@@ -2,9 +2,10 @@ function initMap() {
 
     // Your text bubble
     var YourAddress = '<div id="content">' +
-        '<h3>MYD BIKES</h3>' +
-        '<p>Address Line 1</p>' +
-        '<p>Phone: (94 123456789)' +
+        '<h3>MYD BICYCLE RIDES</h3>' +
+        '<p>Gahalakoratuwa,Mihiripenna,Sri Lanka.</p>' +
+        '<p>Phone: +94 771 22 3479 , +94 775 34 3394 '  +
+        '<p>Email: contact@mydbikes.com'  +
         '</div>';
 
     // Your Position
