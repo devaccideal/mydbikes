@@ -26,6 +26,7 @@ $(function () {
             });
 
             alert("Thank you ! We have received your message!");
+            $('.contact-form').reset();
             location.reload();
             return false;
         }
