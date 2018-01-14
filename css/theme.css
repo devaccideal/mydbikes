@@ -115,7 +115,7 @@ $navBg: rgba(13, 20, 34, 0.95); // Used for shading on top of images and element
 .imagehead{
   height: 500px;
 }
-@media screen and (max-width: 400px) and (min-width: 300px) {
+@media screen and (max-width: 500px) and (min-width: 300px) {
 .imagehead{
   height: 250px;
 }
