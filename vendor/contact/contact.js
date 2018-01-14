@@ -4,6 +4,7 @@ $(function () {
 
     $('.contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
+
             var url = "https://mydbikesmailer.herokuapp.com/send-email";
 
             $.ajax({
@@ -12,7 +13,6 @@ $(function () {
                 data: $(this).serialize(),
                 success: function (data)
                 {
-                    alert("Thank you ! We have received your message!");
                     window.location = "http://www.mydbikes.com";
                     var messageAlert = 'alert-' + data.type;
                     var messageText = data.message;
@@ -24,6 +24,9 @@ $(function () {
                     }
                 }
             });
+
+            alert("Thank you ! We have received your message!");
+            location.reload();
             return false;
         }
     })
