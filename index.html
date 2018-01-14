@@ -27,9 +27,7 @@
     <link id="theme" rel="stylesheet" href="css/theme.css">
     <script src="vendor/modernizr.js"></script>
     <link rel="stylesheet" href="css/animate.css">
-    <script>
-        new WOW().init();
-    </script>
+
 </head>
 
 <body>
@@ -141,10 +139,14 @@
         <header id="personal" class="parallax-container dark" data-overlay="8">
             <div class="parallax"><img src="vendor/Assets/logo.jpg" alt=""></div>
             <div class="header-in">
-                <div class="caption center">
-                    <img src="vendor/Assets/MYDw-1.png" height="500" alt="">
 
-                </div>
+
+                        <div class="caption text-center">
+                            <img src="vendor/Assets/MYDw-1.png" class="imagehead"  alt="">
+                        </div>
+
+
+
                 <img class="arrow" src="img/arrow.svg" alt="">
             </div>
         </header>
@@ -182,18 +184,6 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
         <section class="parallax-project parallax-container dark" data-overlay="5">
             <div class="parallax"><img src="vendor/Assets/mission_cover.jpeg" alt=""></div>
             <div class="container">
@@ -205,11 +195,11 @@
                                 <h2>OUR MISSION</h2>
 
                                 <p>Our bicycle rides exploring the brilliance and peacefulness of nature target to provide enjoyment and relaxation to our clients. </p>
-                                <ul class="tags">
-                                    <li>MISSION</li>
-                                    <li>MYD</li>
-                                    <li>RIDERS</li>
-                                </ul>
+                                <!--<ul class="tags">-->
+                                    <!--<li>MISSION</li>-->
+                                    <!--<li>MYD</li>-->
+                                    <!--<li>RIDERS</li>-->
+                                <!--</ul>-->
                             </div>
                         </div>
                     </a>
@@ -240,7 +230,7 @@
                                     one and half hours covering 12 kilometers through natural steams, greenish paddy fields,
                                     countryside villages and natural mangrove swamps</li>
                             </ul>
-                            <a href="#" class="btn"><span>$ 10 / Per Person</span></a>
+                            <a href="#" class="btn"><span>More Details</span></a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -255,7 +245,7 @@
                                     explores the beauty of the greenish paddy fields, tea field mangrove swamps and through the
                                     shoreline of the Koggala Lake. </li>
                             </ul>
-                            <a href="#" class="btn"><span> $ 20 / Per Person</span></a>
+                            <a href="#" class="btn"><span>More Details</span></a>
                         </div>
                     </div>
                     <div class="col-sm-4">
@@ -269,7 +259,7 @@
                                     This ride passes the countryside villages, natural streams, greenish paddy fields, tea fields,
                                     cinnamon plantations along the hills of Hiyare.</li>
                             </ul>
-                            <a href="#" class="btn"><span> $ 50 / Per Person</span></a>
+                            <a href="#" class="btn"><span>More Details</span></a>
                         </div>
                     </div>
                 </div>
@@ -331,49 +321,24 @@
 
 
         <!-- Get registered -->
-        <section id="c_newsletter" class="parallax-container dark1 center extra-pad" data-overlay="9">
+        <section id="c_newsletter" class="parallax-container light center extra-pad" data-overlay="9">
             <div class="parallax"><img src="img/headers/subpage.jpg" alt=""></div>
             <div class="container">
                 <div class="row title">
                     <span class="promo-heading">Need More Details ?</span>
-                    <h6>Get in touch with us so we can discuss next ride !</h6>
+                    <h6>Get in touch with us so we can discuss your next ride !</h6>
                     <a href="contact.html" class="btn"><span>Contact Us</span></a>
                 </div>
             </div>
         </section>
 
 
-        <div class="container-fluid no-pad no-max">
-            <div class="col-md-8 mh" style="height: 450px;">
-                <div id="map" style="position: relative; overflow: hidden;">
-
-                </div>
-                <script src="js/googleMap.js"></script>
-                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCGdxJUGVa8uDG4wsQp-cmzQI1ijLNqYb4&amp;callback=initMap" async="" defer=""></script>
-            </div>
-
-            <div class="col-md-4 col-sm-6 mh center extra-pad primary parallax-container address-hold" data-overlay="9" style="height: 450px;">
-                <div class="parallax"><img src="img/headers/subpage.jpg" alt="" style="display: block; transform: translate3d(-50%, 55px, 0px);"></div>
-                <div class="holder">
-                    <div class="placer">
-                        <h2>MYD BICYCLE RIDES</h2>
-                        <p>Gahalakoratuwa, </p>
-                        <p>Mihiripenna,</p>
-                        <p>Sri Lanka.</p>
-                        <p>+94 777 71 7312</p>
-                        <p>+94 771 22 3479</p>
-                        <p>+94 775 34 3394</p>
-                        <a href="contact.html" class="btn"><span>Mail Us</span></a>
-                    </div>
-                </div>
-            </div>
-        </div>
         <footer id="minimal" class="dark1 center">
             <div class="container">
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <div class="social">
-                            <a href="#"><i class="ion-social-twitter"></i></a>
+                            <a href="#"><i class="ion-social-facebook"></i></a>
                             <a href="#"><i class="ion-social-googleplus"></i></a>
                             <a href="#"><i class="ion-social-instagram-outline"></i></a>
                             <a href="#"><i class="ion-social-linkedin-outline"></i></a>
@@ -406,5 +371,7 @@
     <script src="js/main.js"></script>
 </body>
 
-
+<script>
+    new WOW().init();
+</script>
 </html>
