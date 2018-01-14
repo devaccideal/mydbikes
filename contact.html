@@ -162,7 +162,7 @@
                         <h4>We are located in the South of Galle Sri Lanka a few meters away from the attractive shoreline of
                             Mihiripenna.  For more information and for drive directions you can contact us thro
                             ugh the following:</h4>
-                        <form class="contact-form" method="post" action="contact.php">
+                        <form class="contact-form" action="https://mydbikesmailer.herokuapp.com/send-email" method="POST">
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
                                     <input id="form-name" name="name" type="text" placeholder="Your Name *" required="required"
@@ -172,36 +172,34 @@
                             </div>
                             <div class="input-field col-sm-6">
                                 <div class="form-group">
-                                    <input id="form-email" name="email" type="email" placeholder="Email Address *" required="required"
+                                    <input id="form-email"  name="email" type="email" placeholder="Email Address *" required="required"
                                            data-error="Email is required.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-6">
                                 <div class="form-group">
-                                    <input id="form-tel" name="tel" type="tel" placeholder="Phone Number" data-error="Please provide real phone number.">
+                                    <input id="form-tel" name="telephone" type="tel" placeholder="Phone Number" data-error="Please provide real phone number.">
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="input-field col-sm-12">
                                 <div class="form-group">
-                                    <textarea id="form-textarea" name="Message" id="" cols="30" rows="5" placeholder="Your message here *"
+                                    <textarea id="form-textarea" name="subject" id="" cols="30" rows="5" placeholder="Your message here *"
                                               required="required" data-error="Message is required."></textarea>
                                     <div class="help-block with-errors"></div>
                                 </div>
                             </div>
                             <div class="col-sm-12 center">
-                                <input type="submit" value="Submit Form">
+                                <input type="submit"  type="submit" value="Send" >
                                 <div class="messages"></div>
                             </div>
                         </form>
                     </div>
                     <div class="col-md-3 col-md-offset-1">
                         <h5>Address</h5>
-                        <p>MYD BICYCLE RIDES, </p>  <p>Gahalakoratuwa, </p> <p>Mihiripenna,</p>  <p> Sri Lanka.
-
-                        </p>
-
+                        <p>MYD BICYCLE RIDES, </p>  <p>Gahalakoratuwa, </p> <p>Mihiripenna,</p>
+                        <p>Sri Lanka.</p>
                         <hr>
                         <h5>Phone</h5>
                         <p>+94 777 71 7312</p>

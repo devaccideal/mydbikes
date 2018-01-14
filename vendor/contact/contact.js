@@ -4,7 +4,7 @@ $(function () {
 
     $('.contact-form').on('submit', function (e) {
         if (!e.isDefaultPrevented()) {
-            var url = "vendor/contact/contact.php";
+            var url = "https://mydbikesmailer.herokuapp.com/send-email";
 
             $.ajax({
                 type: "POST",
@@ -12,6 +12,8 @@ $(function () {
                 data: $(this).serialize(),
                 success: function (data)
                 {
+                    alert("Thank you ! We have received your message!");
+                    window.location = "http://www.mydbikes.com";
                     var messageAlert = 'alert-' + data.type;
                     var messageText = data.message;
 
