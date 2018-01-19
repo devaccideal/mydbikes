@@ -22,7 +22,7 @@
     <link rel="stylesheet" href="vendor/ion-icons/ionicons.min.css">
     <link rel="stylesheet" href="vendor/owl-slider/owl.carousel.css">
     <link rel="stylesheet" href="vendor/slideshow/slideshow.css">
-    <link rel="stylesheet" href="vendor/lightbox/lity.min.css">
+    <link rel="stylesheet" href="css/lightbox.min.css">
     <!-- Theme CSS -->
     <link id="theme" rel="stylesheet" href="css/theme.css">
     <script src="vendor/modernizr.js"></script>
@@ -182,7 +182,58 @@
 
 
 
-
+        <section class="gallery">
+            <div class="container">
+                <div class="row">
+                    <div class="col col-md-6 col-md-offset-3 title">
+                        <h2>MYD Bicycle Rides</h2>
+                        <h4>Our bicycle rides exploring the brilliance and the peacefulness of nature target to
+                            provide enjoyment and relaxation to our clients.</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="center-loop">
+                            <div>
+                                <a href="img/mydimg/1.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/1.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="img/mydimg/2.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/2.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="img/mydimg/3.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/3.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="img/mydimg/4.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/4.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="img/mydimg/5.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/5.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="img/mydimg/6.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/6.jpg" alt="">
+                                </a>
+                            </div>
+                            <div>
+                                <a href="img/mydimg/7.jpg"  data-lightbox="myd">
+                                    <img src="img/mydimg/7.jpg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
 
 
@@ -198,14 +249,12 @@
                 </div>
                 <div class="row m-space">
                     <div class="col-md-12">
-                        <h6>About Us.
-                            MYD BICYCLE RIDES established in 2015 moves forward until now providing the best for our clients who
+                        <h6>MYD BICYCLE RIDES established in 2015 moves forward until now providing the best for our clients who
                             love to explore the countryside of Galle, Sri Lanka and the ones who love to ride bicycles. We
                             have a
                             crew of ten guiding the cyclists throughout the ride and who grant their protection and the needed
                             facilities. Our team is aware of all the routes the cyclists follow in their riding trials.
-                            We also grant that our bicycle rides provide sa
-                            fety for the riders and
+                            We also grant that our bicycle rides provide safety for the riders and
                             as well as the environment.</h6>
 
                     </div>
@@ -226,13 +275,13 @@
                 <div class="row">
                     <div class="col-md-6 col-md-offset-3">
                         <div class="social">
-                            <a href="#"><i class="ion-social-twitter"></i></a>
+                            <a href="https://www.facebook.com/MYD-Bikes-173808560045848"><i class="ion-social-twitter"></i></a>
                             <a href="#"><i class="ion-social-googleplus"></i></a>
                             <a href="#"><i class="ion-social-instagram-outline"></i></a>
                             <a href="#"><i class="ion-social-linkedin-outline"></i></a>
                         </div>
                         <hr>
-                        <p class="footer-text">Copyright &copy; SixBaseIT. All rights reservered <a href="#">Terms and Conditions</a>                            <a href="#">Cookie Policy</a></p>
+                        <p class="footer-text">Copyright &copy; SixBaseIT. All rights reservered <a href="#">Terms and Conditions</a>  </p>
                     </div>
                 </div>
             </div>
@@ -251,10 +300,21 @@
     <script src="vendor/slideshow/imagesloaded.pkgd.min.js"></script>
     <script src="vendor/slideshow/main.js"></script>
     <script src="vendor/parallax/materialize.min.js"></script>
-    <script src="vendor/lightbox/lity.min.js"></script>
+    <script src="js/lightbox.min.js"></script>
     <script src="vendor/tabs/jquery.tabslet.min.js"></script>
     <script src="vendor/masonry.pkgd.min.js"></script>
     <script src="js/main.min.js"></script>
+
+
+
+    <script>
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true,
+            'alwaysShowNavOnTouchDevices': true,
+            'showImageNumberLabel':false
+        });
+    </script>
 </body>
 
 </html>
